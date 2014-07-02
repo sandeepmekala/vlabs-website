@@ -163,6 +163,7 @@
 					<br>
 					<p>	
 						<a class="btn btn-primary btn-lg" href="experimentPage.php?cls=9" ><i class="glyphicon glyphicon-share-alt"></i> Get Started</a> 
+						<a class="btn btn-primary btn-lg" href="downloads.html" target="_blank"><i class="glyphicon glyphicon-share-alt"></i> Download App</a> 
 					</p>
 				</div>
 			</div>
