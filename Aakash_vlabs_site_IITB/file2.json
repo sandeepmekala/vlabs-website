@@ -1,0 +1,55 @@
+[{ "checksum" : "3asdfa48uasdf2984kadsfasdhahsfakl",
+"class_no" : "9",
+"subject" : [
+	{
+	"subject_name" : "physics",
+	"exps" : [
+		{
+		"name" : "test1",
+		"exp_no" : "5",
+		"description" : "des",
+		"thumb" : "akash3.png"
+		},
+		{
+		"name" : "Force required to move a wooden block",
+		"exp_no" : "3",
+		"description" : "To establish relationship between weight of a rectangular wooden block lying on a horizontal table and the minimum force required to just move it using a spring balance.",
+		"thumb" : "Force-Required-to-Move-a-Wooden-Block-on-a-Horizontal-Table.png"
+		},
+		{
+		"name" : "Verification of Newtons Second Law",
+		"exp_no" : "2",
+		"description" : "Newtons Second Law  of motion states that the rate of change of momentum of an object is proportional to the applied unbalanced force in the direction of the force. ",
+		"thumb" : "Newtons-Second-Law.png"
+		},
+		{
+		"name" : "Bell Jar Experiment",
+		"exp_no" : "1",
+		"description" : "To demonstrate that sound needs a material medium for its propagation. ",
+		"thumb" : "Bell-Jar-Experiment.png"
+		}
+		]
+	},
+	{
+	"subject_name" : "chemistry",
+	"exps" : [
+		{
+		"name" : "Separation of Mixtures Using Different Techniques",
+		"exp_no" : "1",
+		"description" : "To separate the components of a mixture using the following techniques:      Separating funnel     Chromatography     Centrifugation     Simple distillation     Fractional distillation",
+		"thumb" : "Chemical Reactions.png"
+		}
+		]
+	},
+	{
+	"subject_name" : "biology",
+	"exps" : [
+		]
+	},
+	{
+	"subject_name" : "mathematics",
+	"exps" : [
+		]
+	}
+]
+}]
