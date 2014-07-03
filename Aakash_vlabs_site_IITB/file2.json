@@ -5,10 +5,28 @@
 	"subject_name" : "physics",
 	"exps" : [
 		{
+		"name" : "ohms-Law4",
+		"exp_no" : "7",
+		"description" : "Ohms law is a experiment which explains the proportional relation of voltage and current.",
+		"thumb" : "ohms-law4.png"
+		},
+		{
+		"name" : "ohms-Law3",
+		"exp_no" : "8",
+		"description" : "description",
+		"thumb" : "akash6.png"
+		},
+		{
 		"name" : "test1",
 		"exp_no" : "5",
 		"description" : "des",
 		"thumb" : "akash3.png"
+		},
+		{
+		"name" : "Ohms-Law",
+		"exp_no" : "6",
+		"description" : "This is the experiment which explains the proposionality relation of the voltage and current.",
+		"thumb" : "ohms-law.png"
 		},
 		{
 		"name" : "Force required to move a wooden block",
@@ -27,6 +45,12 @@
 		"exp_no" : "1",
 		"description" : "To demonstrate that sound needs a material medium for its propagation. ",
 		"thumb" : "Bell-Jar-Experiment.png"
+		},
+		{
+		"name" : "Archimede_Principle",
+		"exp_no" : "9",
+		"description" : "To establish the relationship between the loss in weight of a solid and weight of water displaced when the solid is fully immersed in the solutions",
+		"thumb" : "Archimede_Principle.png"
 		}
 		]
 	},

@@ -507,26 +507,22 @@
     <div class="col-lg-12">
       <div class="col-md-3">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="aboutUs.php">About Us</a></li>
         </ul>
       </div>
       <div class="col-md-3">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="#">Product for Mac</a></li>
-          <li><a href="#">Product for Windows</a></li>
+          <li><a href="contactUs.php">Contact Us</a></li>
         </ul>
       </div>
       <div class="col-md-3">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="#">Web analytics</a></li>
-          <li><a href="#">Presentations</a></li>          
+          <li><a href="aboutFAQs.php">FAQs</a></li>
         </ul>
       </div>
       <div class="col-md-3">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="#">Product Help</a></li>
-          <li><a href="#">Developer API</a></li>
+          <li><a href="#">Developers</a></li>
         </ul>
       </div>  
     </div>
@@ -535,9 +531,9 @@
     <div class="row">
         <div class="col-lg-12">
             <ul class="nav nav-pills nav-justified">
-                <li><a href="/">© 2013 Company Name.</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy</a></li>
+                <li><a href="#">© 2014 Indian Institute of Technology Bombay.</a></li>
+                <li><a href="#">Site map</a></li>
+				<li><a href="#">Terms of Service&Privacy</a></li>
             </ul>
         </div>
     </div>

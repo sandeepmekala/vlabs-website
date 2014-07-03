@@ -1,0 +1,18 @@
+Match the following with their corresponding units : {=Resistance -> Ohm =Current  -> Ampere =Potential Difference -> Volt =Charge  -> Coulomb }
+
+A potential difference of 10V appears across the ends of a resistor when 5A of current flows through it. The resistance of the resistor is ___ Ohm: {#2}
+
+The graph of current I (on y-axis) Vs. potential difference V (on x-axis) is found to be a straight line. The slope of the straight line gives : {~Resistance ~Voltage =Reciprocal of resistance ~Current ~Charge}
+
+Ammeter is always connected in series. {T}
+
+Voltmeter is always connected in series. {F}
+
+Which of the following will cause the current through an electrical circuit to decrease?{
+~ %50% decrease the voltage
+~ decrease the resistance
+~ increase the voltage
+~ %50% increase the resistance
+}
+
+An electrical device with a resistance of 3.0 Ω will allow a current of 4.0 amps to flow through it if a voltage drop of {#12} Volts is impressed across the device.

@@ -83,8 +83,6 @@ td {
 <button class="btn btn-success" id="nextsim" style="display: none">Next Step</button>
 <button class="btn btn-danger" id="endstep" style="display: none">End Simulation</button>
 
-<img id="graph_back" src="other/graph1.jpg" style="display: none" />
-
 <div id="pics">
 <font id="csvDisplay" color="#FF0000" style="display: none"></font>
 <table id="picTable" width="200" border="2">
@@ -115,6 +113,42 @@ td {
 	<tr> 
 		<td id="td_img11" width="100" height="100"><img id="img11" src="images/img11.png" height="100px" width="100px" /></td>
 		<td id="td_img12" width="100" height="100"><img id="img12" src="images/img12.png" height="100px" width="100px" /></td>
+	</tr>
+	<tr>
+		<td id="td_img13" width="100" height="100"><img id="img13" src="images/img13.png" height="100px" width="100px" /></td>
+		<td id="td_img14" width="100" height="100"><img id="img14" src="images/img14.png" height="100px" width="100px" /></td>
+	</tr>
+	<tr> 
+		<td id="td_img15" width="100" height="100"><img id="img15" src="images/img15.png" height="100px" width="100px" /></td>
+		<td id="td_img16" width="100" height="100"><img id="img16" src="images/img16.png" height="100px" width="100px" /></td>
+	</tr>
+	<tr>
+		<td id="td_img17" width="100" height="100"><img id="img17" src="images/img17.png" height="100px" width="100px" /></td>
+		<td id="td_img18" width="100" height="100"><img id="img18" src="images/img18.png" height="100px" width="100px" /></td>
+	</tr>
+	<tr> 
+		<td id="td_img19" width="100" height="100"><img id="img19" src="images/img19.png" height="100px" width="100px" /></td>
+		<td id="td_img20" width="100" height="100"><img id="img20" src="images/img20.png" height="100px" width="100px" /></td>
+	</tr>
+	<tr>
+		<td id="td_img21" width="100" height="100"><img id="img21" src="images/img21.png" height="100px" width="100px" /></td>
+		<td id="td_img22" width="100" height="100"><img id="img22" src="images/img22.png" height="100px" width="100px" /></td>
+	</tr>
+	<tr> 
+		<td id="td_img23" width="100" height="100"><img id="img23" src="images/img23.png" height="100px" width="100px" /></td>
+		<td id="td_img24" width="100" height="100"><img id="img24" src="images/img24.png" height="100px" width="100px" /></td>
+	</tr>
+	<tr>
+		<td id="td_img25" width="100" height="100"><img id="img25" src="images/img25.png" height="100px" width="100px" /></td>
+		<td id="td_img26" width="100" height="100"><img id="img26" src="images/img26.png" height="100px" width="100px" /></td>
+	</tr>
+	<tr> 
+		<td id="td_img27" width="100" height="100"><img id="img27" src="images/img27.png" height="100px" width="100px" /></td>
+		<td id="td_img28" width="100" height="100"><img id="img28" src="images/img28.png" height="100px" width="100px" /></td>
+	</tr>
+	<tr> 
+		<td id="td_img29" width="100" height="100"><img id="img29" src="images/img29.png" height="100px" width="100px" /></td>
+		<td id="td_img30" width="100" height="100"><img id="img30" src="images/img30.png" height="100px" width="100px" /></td>
 	</tr>	
 </table>
 </div>
@@ -143,6 +177,24 @@ var img9 = document.getElementById('img9');
 var img10 = document.getElementById('img10');
 var img11 = document.getElementById('img11');
 var img12 = document.getElementById('img12');
+var img13 = document.getElementById('img13');
+var img14 = document.getElementById('img14');
+var img15 = document.getElementById('img15');
+var img16 = document.getElementById('img16');
+var img17 = document.getElementById('img17');
+var img18 = document.getElementById('img18');
+var img19 = document.getElementById('img19');
+var img20 = document.getElementById('img20');
+var img21 = document.getElementById('img21');
+var img22 = document.getElementById('img22');
+var img23 = document.getElementById('img23');
+var img24 = document.getElementById('img24');
+var img25 = document.getElementById('img25');
+var img26 = document.getElementById('img26');
+var img27 = document.getElementById('img27');
+var img28 = document.getElementById('img28');
+var img29 = document.getElementById('img29');
+var img30 = document.getElementById('img30');
 ////
 var td_dline = document.getElementById('td_dline');
 var td_dtbox = document.getElementById('td_dtbox');
@@ -158,6 +210,24 @@ var td_img9 = document.getElementById('td_img9');
 var td_img10 = document.getElementById('td_img10');
 var td_img11 = document.getElementById('td_img11');
 var td_img12 = document.getElementById('td_img12');
+var td_img13 = document.getElementById('td_img13');
+var td_img14 = document.getElementById('td_img14');
+var td_img15 = document.getElementById('td_img15');
+var td_img16 = document.getElementById('td_img16');
+var td_img17 = document.getElementById('td_img17');
+var td_img18 = document.getElementById('td_img18');
+var td_img19 = document.getElementById('td_img19');
+var td_img20 = document.getElementById('td_img20');
+var td_img21 = document.getElementById('td_img21');
+var td_img22 = document.getElementById('td_img22');
+var td_img23 = document.getElementById('td_img23');
+var td_img24 = document.getElementById('td_img24');
+var td_img25 = document.getElementById('td_img25');
+var td_img26 = document.getElementById('td_img26');
+var td_img27 = document.getElementById('td_img27');
+var td_img28 = document.getElementById('td_img28');
+var td_img29 = document.getElementById('td_img29');
+var td_img30 = document.getElementById('td_img30');
 ////
 var gencsv = document.getElementById('gencsv');
 var loadcsv = document.getElementById('loadcsv');
@@ -682,6 +752,24 @@ function imageCreationListeners() {
 	td_img10.addEventListener("click",function(){createobj(10);});
 	td_img11.addEventListener("click",function(){createobj(11);});
 	td_img12.addEventListener("click",function(){createobj(12);});
+	td_img13.addEventListener("click",function(){createobj(13);});
+	td_img14.addEventListener("click",function(){createobj(14);});
+	td_img15.addEventListener("click",function(){createobj(15);});
+	td_img16.addEventListener("click",function(){createobj(16);});
+	td_img17.addEventListener("click",function(){createobj(17);});
+	td_img18.addEventListener("click",function(){createobj(18);});
+	td_img19.addEventListener("click",function(){createobj(19);});
+	td_img20.addEventListener("click",function(){createobj(20);});
+	td_img21.addEventListener("click",function(){createobj(21);});
+	td_img22.addEventListener("click",function(){createobj(22);});
+	td_img23.addEventListener("click",function(){createobj(23);});
+	td_img24.addEventListener("click",function(){createobj(24);});
+	td_img25.addEventListener("click",function(){createobj(25);});
+	td_img26.addEventListener("click",function(){createobj(26);});
+	td_img27.addEventListener("click",function(){createobj(27);});
+	td_img28.addEventListener("click",function(){createobj(28);});
+	td_img29.addEventListener("click",function(){createobj(29);});
+	td_img30.addEventListener("click",function(){createobj(30);});
 }
 
 function addAllEventListeners() {
@@ -727,7 +815,7 @@ function endStepSim() {
 	nextsim.style.display = "none";
 	endstep.style.display = "none";
 	gencsv.style.display = "block";
-	loadcsv.style.display = "block";
+	//loadcsv.style.display = "block";
 	comsim.style.display = "block";
 	stepsim.style.display = "block";
 	isComSim = 1;
@@ -978,7 +1066,7 @@ function simulate(mode,imgIn) {
 		nextsim.style.display = "none";
 		endstep.style.display = "none";
 		gencsv.style.display = "block";
-		loadcsv.style.display = "block";
+		//loadcsv.style.display = "block";
 		comsim.style.display = "block";
 		stepsim.style.display = "block";
 		isComSim = 1;

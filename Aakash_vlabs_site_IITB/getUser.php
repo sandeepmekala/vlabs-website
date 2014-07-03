@@ -64,7 +64,7 @@ if(($rows1 >= 1) && ($specification == "contributor")){
 	  </div>
 	</nav>';
 }
-else if(($rows1 == 1) && ($specification == "reviewer")){
+else if(($rows1 >= 1) && ($specification == "reviewer")){
 	$display_string='<nav class="navbar navbar-default" role="navigation">
 	  <div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->

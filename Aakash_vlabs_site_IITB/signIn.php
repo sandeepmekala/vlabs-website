@@ -288,7 +288,6 @@
 
                                     <div class="col-md-12">
 										<button type="submit" class="btn btn-success" id="submit">Login</button>
-										<button type="submit" class="btn btn-primary" id="submit2">Login with Facebook</button>
 									</div>
                                 </div>
 

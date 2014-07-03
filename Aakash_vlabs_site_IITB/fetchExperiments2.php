@@ -32,7 +32,7 @@ while($row = mysql_fetch_array($qry_result)){
 	<div class='col-md-1'>
 		<img src='assets/img/$row[icon]' height='80px' width='100px'  style='padding:10px;'/>
 	</div>
-	<div class='col-md-9' style='padding-left:5%;' >
+	<div class='col-md-9' style='padding-left:5%;' >	
 			<a href='experimentView.php?cls=$row[class_no]&sname=$row[subject_name]&ename=$row[name]'>&nbsp;&nbsp;&nbsp;$row[name]</a>
 			<br><br>
 			<p id='desc'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$row[description]</p>

@@ -1,0 +1,5 @@
+What is the upthrust exerted by water on the immersing body known as? {~weight ~volume =buoyant force ~density}
+
+If the density of a body is greater than the density of the liquid, then it floats. {F}
+
+The weight of a stone in air is 6N. After being submerged in a liquid it displaces liquid of weight {#2}N and the new weight of the stone is now 4N.

@@ -114,7 +114,7 @@
 
 		var yyyy = today.getFullYear();
 		if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm} var today = yyyy+'-'+mm+'-'+dd;
-		
+		alert(today);
 		var name = document.getElementById('name').value;
 		var subject_name = document.getElementById('subject_name').value;
 		var class_no = document.getElementById('class_no').value;
