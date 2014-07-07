@@ -1,0 +1,63 @@
+
+\addbibresource{bib/BibtexDatabase}
+
+\includeonly{
+ content/Title,
+ content/0-Abstract,
+ content/0-Introduction,
+ content/1-Theory,
+ content/2-Experiments,
+ content/3-Results,
+ content/4-Discussion,
+}
+
+\listfiles
+
+\begin{document}
+
+% required for hyperref (not displayed)
+\pagenumbering{alph}\setcounter{page}{1}%
+\pagestyle{empty}
+
+% -- title page --
+\include{content/Title}
+\cleardoublepage
+
+% -- abstract --
+\include{content/0-Abstract} 
+\cleardoublepage
+
+\frontmatter
+\pagestyle{scrheadings}
+
+% -- table of contents --
+%
+% add table of contents to pdf bookmarks
+\pdfbookmark[1]{\contentsname}{toc}
+\tableofcontents
+
+% --- Main Document --- --- --- --- --- --- ---
+\mainmatter
+%
+\include{content/0-Introduction}
+\include{content/1-Theory}
+\include{content/2-Experiments}
+\include{content/3-Results}
+\include{content/4-Discussion}
+
+% -- bibliography --
+% (must be placed _before_ appendix)
+\printbibliography[%
+  heading=bibintoc, % (bibintoc, bibnumbered)
+]   
+
+%% -- list of figures and tables --
+\clearpage
+\listoffigures
+\listoftables
+
+% --- Appendix --- --- --- --- --- --- ---
+\appendix % switch to appendix mode
+\include{content/Z-Appendix}
+
+\end{document}
